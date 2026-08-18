@@ -18,3 +18,4 @@ emphasis-style:
   style: underscore
 strong-style:
   style: asterisk
+no-inline-html: false
