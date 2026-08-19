@@ -18,4 +18,7 @@ emphasis-style:
   style: underscore
 strong-style:
   style: asterisk
-no-inline-html: false
+no-inline-html:
+  allowed_elements:
+      - details
+      - summary
