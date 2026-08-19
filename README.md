@@ -195,6 +195,7 @@ main_tickNT_long = runTickLong tickNT
 -->
 
 Quiz! Do you feel the difference between these functions? ;-)
+
 <details><summary>See my answer</summary>
 
 In both functions actions are run one after the other,
@@ -313,6 +314,7 @@ concurrentRunTraverse = do
 ```
 
 Quiz! I hope, you already can say what would be the result of such computation.
+
 <details><summary>See my answer</summary>
 
 It would be the following:
@@ -395,6 +397,7 @@ It spawns the computation that will continue ticking and after that it invokes t
 Ticking will continue even after the first action is completed.
 
 Quiz! What is the difference between `tickNS` and previously defined `tickNF` and `tickNT`?
+
 <details><summary>See my answer</summary>
 
 Unlike the previous ticking functions, `tickNS` allows given actions execute simultaneously if
@@ -463,6 +466,7 @@ main_tickNR_long = runTickLong tickNR
 -->
 
 Quiz! What are the similarities and differences between `tickNR` and previously defined ticker functions?
+
 <details><summary>See my answer</summary>
 
 Like `tickNS`, this function starts actions in particular moments of time, which are independent the time for computation of actions.
