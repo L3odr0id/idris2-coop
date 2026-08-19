@@ -20,5 +20,5 @@ strong-style:
   style: asterisk
 no-inline-html:
   allowed_elements:
-      - details
-      - summary
+    - details
+    - summary
